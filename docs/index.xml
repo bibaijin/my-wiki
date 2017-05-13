@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Wiki</title>
-    <link>https://bibaijin.github.io/my-wiki/</link>
+    <link>https://bibaijin.github.io/</link>
     <description>Recent content on My Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 May 2017 12:21:57 +0800</lastBuildDate>
     
-	<atom:link href="https://bibaijin.github.io/my-wiki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bibaijin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spacemacs</title>
-      <link>https://bibaijin.github.io/my-wiki/spacemacs/</link>
+      <link>https://bibaijin.github.io/spacemacs/</link>
       <pubDate>Sat, 13 May 2017 12:21:57 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/spacemacs/</guid>
+      <guid>https://bibaijin.github.io/spacemacs/</guid>
       <description> 一个基于 Emacs 的编辑器。
 Layers spell-checking  在 Arch Linux 上需要安装 aspell-en  </description>
     </item>
     
     <item>
       <title>Vagrant</title>
-      <link>https://bibaijin.github.io/my-wiki/vagrant/</link>
+      <link>https://bibaijin.github.io/vagrant/</link>
       <pubDate>Sat, 13 May 2017 12:20:37 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/vagrant/</guid>
+      <guid>https://bibaijin.github.io/vagrant/</guid>
       <description> 一个虚拟机管理软件。
 Bug  开发 web 应用时，宿主机不能访问虚拟机里的静态文件  </description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://bibaijin.github.io/my-wiki/linux/</link>
+      <link>https://bibaijin.github.io/linux/</link>
       <pubDate>Sat, 13 May 2017 12:15:27 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/linux/</guid>
+      <guid>https://bibaijin.github.io/linux/</guid>
       <description> 系统设置 # 设置时区 timedatectl set-timezone Asia/Shanghai  </description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://bibaijin.github.io/my-wiki/go/</link>
+      <link>https://bibaijin.github.io/go/</link>
       <pubDate>Sat, 13 May 2017 12:15:20 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/go/</guid>
+      <guid>https://bibaijin.github.io/go/</guid>
       <description> 优点  编译速度快 运行依赖少，基本只需下载编译好的二进制文件就可以 并发支持好 容易上手  常见代码段  </description>
     </item>
     
     <item>
       <title>Bootstrap</title>
-      <link>https://bibaijin.github.io/my-wiki/bootstrap/</link>
+      <link>https://bibaijin.github.io/bootstrap/</link>
       <pubDate>Sat, 13 May 2017 11:33:03 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/bootstrap/</guid>
+      <guid>https://bibaijin.github.io/bootstrap/</guid>
       <description> 设置开发环境。
 准备工作  安装 Virtual Box 安装 Vagrant  设置 git clone git@github.com:bibaijin/archlinux.git cd archlinux/ vagrant up # 进入虚拟机 vagrant ssh sudo pacman -S go git export GOPATH=~/Projects/go mkdir -p ~/Projects/go/src/github.com/bibaijin cd ~/Projects/go/src/github.com/bibaijin git clone https://github.com/bibaijin/my-bootstrap.git cd my-bootstrap/ go build ./my-bootstrap # 重新登录 exit vagrant ssh  </description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://bibaijin.github.io/my-wiki/hugo/</link>
+      <link>https://bibaijin.github.io/hugo/</link>
       <pubDate>Sat, 13 May 2017 11:33:03 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/hugo/</guid>
+      <guid>https://bibaijin.github.io/hugo/</guid>
       <description> 一个静态网站生成器。
-安装 go get -u -v github.com/kardianos/govendor govendor get -v github.com/spf13/hugo cd $GOPATH/src/github.com/spf13/hugo &amp;amp;&amp;amp; go install  初始化工程 hugo new site ${project-name}  编辑 cd ${project-name} # 添加主题 git clone https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs # 添加内容 hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;  测试 cd ${project-name} hugo server  </description>
+安装 go get -u -v github.com/kardianos/govendor govendor get -v github.com/spf13/hugo cd $GOPATH/src/github.com/spf13/hugo &amp;amp;&amp;amp; go install  初始化工程 hugo new site ${project-name}  编辑 cd ${project-name} # 添加主题 git clone https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs # 添加内容 hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;  测试 cd ${project-name} hugo server  发布 cd ${project-name} hugo # 更新 docs/ 文件夹 git push origin master # 发布  </description>
     </item>
     
     <item>
       <title>My Wiki</title>
-      <link>https://bibaijin.github.io/my-wiki/</link>
+      <link>https://bibaijin.github.io/</link>
       <pubDate>Sat, 13 May 2017 11:33:03 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/</guid>
+      <guid>https://bibaijin.github.io/</guid>
       <description>我的 wiki，用来记录技术方面的配置和笔记。</description>
     </item>
     

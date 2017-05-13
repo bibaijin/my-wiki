@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vagrants on My Wiki</title>
-    <link>https://bibaijin.github.io/my-wiki/vagrant/</link>
+    <link>https://bibaijin.github.io/vagrant/</link>
     <description>Recent content in Vagrants on My Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 May 2017 12:20:37 +0800</lastBuildDate>
     
-	<atom:link href="https://bibaijin.github.io/my-wiki/vagrant/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bibaijin.github.io/vagrant/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vagrant</title>
-      <link>https://bibaijin.github.io/my-wiki/vagrant/</link>
+      <link>https://bibaijin.github.io/vagrant/</link>
       <pubDate>Sat, 13 May 2017 12:20:37 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/vagrant/</guid>
+      <guid>https://bibaijin.github.io/vagrant/</guid>
       <description> 一个虚拟机管理软件。
 Bug  开发 web 应用时，宿主机不能访问虚拟机里的静态文件  </description>
     </item>

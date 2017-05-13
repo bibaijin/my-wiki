@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linuxes on My Wiki</title>
-    <link>https://bibaijin.github.io/my-wiki/linux/</link>
+    <link>https://bibaijin.github.io/linux/</link>
     <description>Recent content in Linuxes on My Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 May 2017 12:15:27 +0800</lastBuildDate>
     
-	<atom:link href="https://bibaijin.github.io/my-wiki/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bibaijin.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux</title>
-      <link>https://bibaijin.github.io/my-wiki/linux/</link>
+      <link>https://bibaijin.github.io/linux/</link>
       <pubDate>Sat, 13 May 2017 12:15:27 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/my-wiki/linux/</guid>
+      <guid>https://bibaijin.github.io/linux/</guid>
       <description> 系统设置 # 设置时区 timedatectl set-timezone Asia/Shanghai  </description>
     </item>
     

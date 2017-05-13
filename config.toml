@@ -1,4 +1,4 @@
-baseURL =  "https://bibaijin.github.io/my-wiki"
+baseURL =  "https://bibaijin.github.io/"
 languageCode = "zh"
 title = "My Wiki"
 theme = "hugo-material-docs"
