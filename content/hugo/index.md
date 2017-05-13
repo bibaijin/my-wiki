@@ -37,3 +37,11 @@ hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>
 cd ${project-name}
 hugo server
 ```
+
+## 发布
+
+```
+cd ${project-name}
+hugo  # 更新 docs/ 文件夹
+git push origin master  # 发布
+```

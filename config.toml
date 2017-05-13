@@ -4,6 +4,7 @@ title = "My Wiki"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
+publishDir = "docs"
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
 
