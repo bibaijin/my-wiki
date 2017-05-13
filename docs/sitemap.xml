@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bibaijin.github.io/my-wiki/fish/</loc>
+    <lastmod>2017-05-14T01:15:04+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bibaijin.github.io/my-wiki/spacemacs/</loc>
     <lastmod>2017-05-13T12:21:57+08:00</lastmod>
   </url>
@@ -49,6 +54,12 @@
   </url>
   
   <url>
+    <loc>https://bibaijin.github.io/my-wiki/fish/</loc>
+    <lastmod>2017-05-14T01:15:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bibaijin.github.io/my-wiki/go/</loc>
     <lastmod>2017-05-13T12:15:20+08:00</lastmod>
     <priority>0</priority>
@@ -67,12 +78,6 @@
   </url>
   
   <url>
-    <loc>https://bibaijin.github.io/my-wiki/</loc>
-    <lastmod>2017-05-13T12:21:57+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bibaijin.github.io/my-wiki/spacemacs/</loc>
     <lastmod>2017-05-13T12:21:57+08:00</lastmod>
     <priority>0</priority>
@@ -86,6 +91,12 @@
   <url>
     <loc>https://bibaijin.github.io/my-wiki/vagrant/</loc>
     <lastmod>2017-05-13T12:20:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bibaijin.github.io/my-wiki/</loc>
+    <lastmod>2017-05-14T01:15:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   

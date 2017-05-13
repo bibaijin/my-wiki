@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fish on Wiki | 金比白</title>
+    <link>https://bibaijin.github.io/my-wiki/fish/</link>
+    <description>Recent content in Fish on Wiki | 金比白</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 May 2017 01:15:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://bibaijin.github.io/my-wiki/fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>fish</title>
+      <link>https://bibaijin.github.io/my-wiki/fish/</link>
+      <pubDate>Sun, 14 May 2017 01:15:04 +0800</pubDate>
+      
+      <guid>https://bibaijin.github.io/my-wiki/fish/</guid>
+      <description> 一个用户友好的 Shell。
+配置文件  ~/.config/fish/config.fish 与 ~/.config/fish/functions/*.fish 自动加载。 ~/.config/fish/functions/ 里的文件必须只包含一个函数。  语法 设置环境变量 set -x PATH $GOPATH/bin ~/.local/bin $PATH  设置别名 alias rmi=&amp;quot;rm -i&amp;quot;  定义函数 function ll ls -l $argv end  </description>
+    </item>
+    
+  </channel>
+</rss>

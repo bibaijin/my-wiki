@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Wiki | 金比白</title>
+    <title>fish - Wiki | 金比白</title>
     <meta name="generator" content="Hugo 0.21-DEV" />
 
     
     <meta name="description" content="金比白的 Wiki">
     
-    <link rel="canonical" href="https://bibaijin.github.io/my-wiki/">
+    <link rel="canonical" href="https://bibaijin.github.io/my-wiki/fish/">
     
     <meta name="author" content="金比白">
     
 
-    <meta property="og:url" content="https://bibaijin.github.io/my-wiki/">
+    <meta property="og:url" content="https://bibaijin.github.io/my-wiki/fish/">
     <meta property="og:title" content="Wiki | 金比白">
     <meta property="og:image" content="https://bibaijin.github.io/my-wiki/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Wiki | 金比白">
@@ -69,9 +69,6 @@
     <script src="https://bibaijin.github.io/my-wiki/javascripts/modernizr.js"></script>
 
     
-    <link href="https://bibaijin.github.io/my-wiki/index.xml" rel="alternate" type="application/rss+xml" title="Wiki | 金比白" />
-    <link href="https://bibaijin.github.io/my-wiki/index.xml" rel="feed" type="application/rss+xml" title="Wiki | 金比白" />
-    
 
   </head>
   <body class="palette-primary-teal palette-accent-red">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Wiki | 金比白
+        fish
       </div>
     </div>
 
@@ -201,11 +198,14 @@
 
 
 
-<a  title="fish" href="https://bibaijin.github.io/my-wiki/fish/">
+<a class="current" title="fish" href="https://bibaijin.github.io/my-wiki/fish/">
 	
 	fish
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -356,12 +356,38 @@
 
 	<article class="article">
 		<div class="wrapper">
-			
-				<h1>金比白的 Wiki </h1>
-
-				<p>金比白的 wiki，用来记录技术方面的配置和笔记。</p>
+			<h1>fish </h1>
 
 			
+
+<p>一个用户友好的 Shell。</p>
+
+<h2 id="配置文件">配置文件</h2>
+
+<ul>
+<li><code>~/.config/fish/config.fish</code> 与 <code>~/.config/fish/functions/*.fish</code> 自动加载。</li>
+<li><code>~/.config/fish/functions/</code> 里的文件必须只包含一个函数。</li>
+</ul>
+
+<h2 id="语法">语法</h2>
+
+<h3 id="设置环境变量">设置环境变量</h3>
+
+<pre><code>set -x PATH $GOPATH/bin ~/.local/bin $PATH
+</code></pre>
+
+<h3 id="设置别名">设置别名</h3>
+
+<pre><code>alias rmi=&quot;rm -i&quot;
+</code></pre>
+
+<h3 id="定义函数">定义函数</h3>
+
+<pre><code>function ll
+    ls -l $argv
+end
+</code></pre>
+
 
 			<aside class="copyright" role="note">
 				
@@ -374,23 +400,21 @@
 			<footer class="footer">
 				
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="https://bibaijin.github.io/my-wiki/tags/" title="Tags">
+  
+      <a href="https://bibaijin.github.io/my-wiki/spacemacs/" title="Spacemacs">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Tags
+              Spacemacs
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -398,8 +422,11 @@
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
+
+
 
 
 

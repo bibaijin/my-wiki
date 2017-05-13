@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Wiki</title>
+    <title>Wiki | 金比白</title>
     <link>https://bibaijin.github.io/my-wiki/</link>
-    <description>Recent content on My Wiki</description>
+    <description>Recent content on Wiki | 金比白</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 13 May 2017 12:21:57 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2017 01:15:04 +0800</lastBuildDate>
     
 	<atom:link href="https://bibaijin.github.io/my-wiki/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fish</title>
+      <link>https://bibaijin.github.io/my-wiki/fish/</link>
+      <pubDate>Sun, 14 May 2017 01:15:04 +0800</pubDate>
+      
+      <guid>https://bibaijin.github.io/my-wiki/fish/</guid>
+      <description> 一个用户友好的 Shell。
+配置文件  ~/.config/fish/config.fish 与 ~/.config/fish/functions/*.fish 自动加载。 ~/.config/fish/functions/ 里的文件必须只包含一个函数。  语法 设置环境变量 set -x PATH $GOPATH/bin ~/.local/bin $PATH  设置别名 alias rmi=&amp;quot;rm -i&amp;quot;  定义函数 function ll ls -l $argv end  </description>
+    </item>
     
     <item>
       <title>Spacemacs</title>
@@ -46,7 +56,7 @@ Bug  开发 web 应用时，宿主机不能访问虚拟机里的静态文件  </
       <pubDate>Sat, 13 May 2017 12:15:20 +0800</pubDate>
       
       <guid>https://bibaijin.github.io/my-wiki/go/</guid>
-      <description> 优点  编译速度快 运行依赖少，基本只需下载编译好的二进制文件就可以 并发支持好 容易上手  常见代码段  </description>
+      <description> 优点  编译速度快 运行依赖少，基本只需下载编译好的二进制文件就可以 并发支持好 容易上手  规范  *_GOOS.go 文件只在对应的平台下编译，GOOS 可以为 linux 和 darwin 等。  常见代码段  </description>
     </item>
     
     <item>
@@ -66,16 +76,16 @@ Bug  开发 web 应用时，宿主机不能访问虚拟机里的静态文件  </
       
       <guid>https://bibaijin.github.io/my-wiki/hugo/</guid>
       <description> 一个静态网站生成器。
-安装 go get -u -v github.com/kardianos/govendor govendor get -v github.com/spf13/hugo cd $GOPATH/src/github.com/spf13/hugo &amp;amp;&amp;amp; go install  初始化工程 hugo new site ${project-name} cd ${project-name} # 在 config.toml 中添加 publishDir = &amp;quot;docs&amp;quot;  编辑 cd ${project-name} # 添加主题 git submodule add https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs # 添加内容 hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;  测试 cd ${project-name} hugo server  发布 cd ${project-name} hugo # 更新 docs/ 文件夹 git push origin master # 发布  </description>
+安装 go get -u -v github.com/kardianos/govendor govendor get -v github.com/spf13/hugo cd $GOPATH/src/github.com/spf13/hugo &amp;amp;&amp;amp; go install  初始化工程 hugo new site ${project-name} cd ${project-name} # 在 config.toml 中添加 publishDir = &amp;quot;docs&amp;quot;  编辑 cd ${project-name} # 添加主题 git submodule add https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs # 添加内容 hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;  测试 cd ${project-name} hugo server  发布 cd ${project-name} hugo # 更新 docs/ 文件夹 git push origin master # 发布  FAQ  如果文件的属性为 draft: true，则生成的网页里不会包含此文件。  </description>
     </item>
     
     <item>
-      <title>My Wiki</title>
+      <title>金比白的 Wiki</title>
       <link>https://bibaijin.github.io/my-wiki/</link>
       <pubDate>Sat, 13 May 2017 11:33:03 +0800</pubDate>
       
       <guid>https://bibaijin.github.io/my-wiki/</guid>
-      <description>我的 wiki，用来记录技术方面的配置和笔记。</description>
+      <description>金比白的 wiki，用来记录技术方面的配置和笔记。</description>
     </item>
     
   </channel>
