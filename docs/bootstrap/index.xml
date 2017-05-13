@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bootstraps on My Wiki</title>
-    <link>https://bibaijin.github.io/bootstrap/</link>
+    <link>https://bibaijin.github.io/my-wiki/bootstrap/</link>
     <description>Recent content in Bootstraps on My Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 May 2017 11:33:03 +0800</lastBuildDate>
     
-	<atom:link href="https://bibaijin.github.io/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bibaijin.github.io/my-wiki/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bootstrap</title>
-      <link>https://bibaijin.github.io/bootstrap/</link>
+      <link>https://bibaijin.github.io/my-wiki/bootstrap/</link>
       <pubDate>Sat, 13 May 2017 11:33:03 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/bootstrap/</guid>
+      <guid>https://bibaijin.github.io/my-wiki/bootstrap/</guid>
       <description> 设置开发环境。
 准备工作  安装 Virtual Box 安装 Vagrant  设置 git clone git@github.com:bibaijin/archlinux.git cd archlinux/ vagrant up # 进入虚拟机 vagrant ssh sudo pacman -S go git export GOPATH=~/Projects/go mkdir -p ~/Projects/go/src/github.com/bibaijin cd ~/Projects/go/src/github.com/bibaijin git clone https://github.com/bibaijin/my-bootstrap.git cd my-bootstrap/ go build ./my-bootstrap # 重新登录 exit vagrant ssh  </description>
     </item>

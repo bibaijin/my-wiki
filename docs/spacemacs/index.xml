@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spacemacs on My Wiki</title>
-    <link>https://bibaijin.github.io/spacemacs/</link>
+    <link>https://bibaijin.github.io/my-wiki/spacemacs/</link>
     <description>Recent content in Spacemacs on My Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 May 2017 12:21:57 +0800</lastBuildDate>
     
-	<atom:link href="https://bibaijin.github.io/spacemacs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bibaijin.github.io/my-wiki/spacemacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spacemacs</title>
-      <link>https://bibaijin.github.io/spacemacs/</link>
+      <link>https://bibaijin.github.io/my-wiki/spacemacs/</link>
       <pubDate>Sat, 13 May 2017 12:21:57 +0800</pubDate>
       
-      <guid>https://bibaijin.github.io/spacemacs/</guid>
+      <guid>https://bibaijin.github.io/my-wiki/spacemacs/</guid>
       <description> 一个基于 Emacs 的编辑器。
 Layers spell-checking  在 Arch Linux 上需要安装 aspell-en  </description>
     </item>
