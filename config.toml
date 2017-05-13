@@ -1,6 +1,6 @@
 baseURL =  "https://bibaijin.github.io/my-wiki/"
 languageCode = "zh"
-title = "My Wiki"
+title = "Wiki | 金比白"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -10,14 +10,14 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "bibaijin"
-	description = "My wiki."
+	author = "金比白"
+	description = "金比白的 Wiki"
 
 	# Repository
 	provider = "GitHub"
 	repo_url = "https://github.com/bibaijin/my-wiki"
 
-	version = "0.1.0"
+	version = "0.2.0"
 	logo = "images/logo.png"
 	favicon = ""
 
@@ -46,7 +46,7 @@ googleAnalytics = ""
 
 
 [[menu.main]]
-	name   = "My Wiki"
+	name   = "金比白的 Wiki"
 	url    = "/"
 	weight = 0
 
@@ -56,29 +56,34 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
+	name   = "fish"
+	url    = "fish/"
+	weight = 20
+
+[[menu.main]]
 	name   = "Go"
 	url    = "go/"
-	weight = 20
+	weight = 30
 
 [[menu.main]]
 	name   = "Hugo"
 	url    = "hugo/"
-	weight = 30
+	weight = 40
 
 [[menu.main]]
 	name   = "Linux"
 	url    = "linux/"
-	weight = 40
+	weight = 50
 
 [[menu.main]]
 	name   = "Spacemacs"
 	url    = "spacemacs/"
-	weight = 50
+	weight = 60
 
 [[menu.main]]
 	name   = "Vagrant"
 	url    = "vagrant/"
-	weight = 60
+	weight = 70
 
 [blackfriday]
 	smartypants	= true

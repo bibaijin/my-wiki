@@ -48,3 +48,7 @@ cd ${project-name}
 hugo  # 更新 docs/ 文件夹
 git push origin master  # 发布
 ```
+
+## FAQ
+
+- 如果文件的属性为 `draft: true`，则生成的网页里不会包含此文件。
