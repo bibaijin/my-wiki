@@ -354,6 +354,9 @@ cd $GOPATH/src/github.com/spf13/hugo &amp;&amp; go install
 <h2 id="初始化工程">初始化工程</h2>
 
 <pre><code>hugo new site ${project-name}
+
+cd ${project-name}
+# 在 config.toml 中添加 publishDir = &quot;docs&quot;
 </code></pre>
 
 <h2 id="编辑">编辑</h2>
@@ -361,7 +364,7 @@ cd $GOPATH/src/github.com/spf13/hugo &amp;&amp; go install
 <pre><code>cd ${project-name}
 
 # 添加主题
-git clone https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
+git submodule add https://github.com/digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
 
 # 添加内容
 hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;
