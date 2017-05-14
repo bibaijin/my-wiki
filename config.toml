@@ -1,4 +1,4 @@
-baseURL =  "https://bibaijin.github.io/my-wiki/"
+baseURL =  "https://bibaijin.github.io/wiki/"
 languageCode = "zh"
 title = "Wiki | 金比白"
 theme = "hugo-material-docs"
@@ -15,7 +15,7 @@ googleAnalytics = ""
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/bibaijin/my-wiki"
+	repo_url = "https://github.com/bibaijin/wiki"
 
 	version = "0.2.0"
 	logo = "images/logo.png"
@@ -35,8 +35,8 @@ googleAnalytics = ""
     accent  = "red"
 
   [params.font]
-    text = "Ubuntu"
-    code = "Ubuntu Mono"
+    text = "Roboto"
+    code = "Roboto Mono"
 
 
 [social]
