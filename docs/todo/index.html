@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Bootstrap - Wiki | 金比白</title>
+    <title>待办事项 - Wiki | 金比白</title>
     <meta name="generator" content="Hugo 0.21-DEV" />
 
     
     <meta name="description" content="金比白的 Wiki">
     
-    <link rel="canonical" href="https://bibaijin.github.io/wiki/bootstrap/">
+    <link rel="canonical" href="https://bibaijin.github.io/wiki/todo/">
     
     <meta name="author" content="金比白">
     
 
-    <meta property="og:url" content="https://bibaijin.github.io/wiki/bootstrap/">
+    <meta property="og:url" content="https://bibaijin.github.io/wiki/todo/">
     <meta property="og:title" content="Wiki | 金比白">
     <meta property="og:image" content="https://bibaijin.github.io/wiki/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Wiki | 金比白">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Bootstrap
+        待办事项
       </div>
     </div>
 
@@ -180,14 +180,11 @@
 
 
 
-<a class="current" title="Bootstrap" href="https://bibaijin.github.io/wiki/bootstrap/">
+<a  title="Bootstrap" href="https://bibaijin.github.io/wiki/bootstrap/">
 	
 	Bootstrap
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -309,11 +306,14 @@
 
 
 
-<a  title="TODO" href="https://bibaijin.github.io/wiki/todo/">
+<a class="current" title="TODO" href="https://bibaijin.github.io/wiki/todo/">
 	
 	TODO
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -374,41 +374,17 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Bootstrap </h1>
+			<h1>待办事项 </h1>
 
 			
 
-<p>设置开发环境。</p>
+<h2 id="haskell">Haskell</h2>
 
-<h2 id="准备工作">准备工作</h2>
-
-<ul>
-<li>安装 Virtual Box</li>
-<li>安装 Vagrant</li>
+<ul class="task-list">
+<li><input type="checkbox" disabled class="task-list-item"> 用 Haskell 写一个 archlinux 的 AUR 管理工具</li>
+<li><input type="checkbox" disabled class="task-list-item"> 用 elm 写一个博客模板，与 hykell 一起使用</li>
+<li><input type="checkbox" disabled class="task-list-item"> 用 elm 写一个 wiki 模板，与 hykell 一起使用</li>
 </ul>
-
-<h2 id="设置">设置</h2>
-
-<pre><code>git clone git@github.com:bibaijin/archlinux.git
-cd archlinux/
-vagrant up
-
-# 进入虚拟机
-vagrant ssh
-sudo pacman -S go git
-export GOPATH=~/Projects/go
-
-mkdir -p ~/Projects/go/src/github.com/bibaijin
-cd ~/Projects/go/src/github.com/bibaijin
-git clone https://github.com/bibaijin/my-bootstrap.git
-cd my-bootstrap/
-go build
-./my-bootstrap
-
-# 重新登录
-exit
-vagrant ssh
-</code></pre>
 
 
 			<aside class="copyright" role="note">
@@ -425,34 +401,18 @@ vagrant ssh
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://bibaijin.github.io/wiki/go/" title="Go">
-        <span class="direction">
-          Previous
-        </span>
-        <div class="page">
-          <div class="button button-previous" role="button" aria-label="Previous">
-            <i class="icon icon-back"></i>
-          </div>
-          <div class="stretch">
-            <div class="title">
-              Go
-            </div>
-          </div>
-        </div>
-      </a>
-  
   </div>
 
   <div class="next">
   
-      <a href="https://bibaijin.github.io/wiki/hugo/" title="Hugo">
+      <a href="https://bibaijin.github.io/wiki/fish/" title="fish">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Hugo
+              fish
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

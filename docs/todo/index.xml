@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todos on Wiki | 金比白</title>
+    <link>https://bibaijin.github.io/wiki/todo/</link>
+    <description>Recent content in Todos on Wiki | 金比白</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 03 Jun 2017 10:54:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://bibaijin.github.io/wiki/todo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>待办事项</title>
+      <link>https://bibaijin.github.io/wiki/todo/</link>
+      <pubDate>Sat, 03 Jun 2017 10:54:43 +0800</pubDate>
+      
+      <guid>https://bibaijin.github.io/wiki/todo/</guid>
+      <description> Haskell 用 Haskell 写一个 archlinux 的 AUR 管理工具 用 elm 写一个博客模板，与 hykell 一起使用 用 elm 写一个 wiki 模板，与 hykell 一起使用  </description>
+    </item>
+    
+  </channel>
+</rss>
