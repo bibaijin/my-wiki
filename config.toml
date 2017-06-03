@@ -85,11 +85,6 @@ googleAnalytics = ""
 	url    = "vagrant/"
 	weight = 70
 
-[[menu.main]]
-	name   = "TODO"
-	url    = "todo/"
-	weight = 80
-
 [blackfriday]
 	smartypants	= true
 	fractions = true
